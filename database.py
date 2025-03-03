@@ -36,4 +36,4 @@ async def get_db():
         yield session
 
 
-from . import models
+from models import Book
